@@ -26,3 +26,11 @@ Thumbs.db
 
 # Temporary Power BI files
 ~$*.pbix
+
+# Generated datasets
+data/raw/*.csv
+data/processed/*.csv
+
+# Allow small sample datasets when created later
+!data/raw/sample_*.csv
+!data/processed/sample_*.csv
